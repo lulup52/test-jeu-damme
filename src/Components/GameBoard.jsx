@@ -4,8 +4,8 @@ import BlackTiles from './BlackTiles'
 import './game.css';
 
 
-const leter = ['a', 'b', 'c', 'd'];
-const number = [ 1, 2, 3, 4];
+const leter = ['a', 'b', 'c'];
+const number = [ 1, 2, 3];
 const board = [];
 
 for (let i = 0; i < leter.length; i++) {
@@ -34,11 +34,18 @@ class GameBoard extends React.Component {
         }
     }
 
+    refreshPage =() => {
+        window.location.reload(false);
+    }
+
     render() {
         return(
             <div className="board">
                 <div >
                     {board.map((row)=> <div className="boardRow">{row.map((tile)=> <WitheTiles  symbol={this.state.symbol} changeSymbol={this.changeSymbol} id={tile.id}/> )}</div>)}
+                </div>
+                <div>
+                    <button>rematch</button>
                 </div>
               
             </div>

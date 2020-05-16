@@ -7,7 +7,7 @@ class WitheTiles extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            tileTargetValue: 'lol',
+            tileTargetValue: 'Click',
             clicked: false
         }
     }

@@ -15,15 +15,11 @@
 
 /*-----------------tiles---------------*/
 
-.tile {
-    height: 50px;
-    width: 50px;
-}
 
 .witheTile {
     background-color: white;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     border-radius: 0;
     border: solid;
 }
@@ -32,9 +28,9 @@
     background-color: black;
     color: white;
     font-weight: bold;
-    font-size: 2rem;
-    height: 50px;
-    width: 50px;
+    font-size: 4rem;
+    height: 100px;
+    width: 100px;
     border-radius: 0;
     border: none;
 
