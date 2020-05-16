@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import PlateauDeJeu from './Components/PlateauDeJeu.jsx'
 import './App.css';
+import GameBoard from './Components/GameBoard.jsx'
 
 
 function App() {
   return (
-    <div className="plateau">
-      <PlateauDeJeu />
+    <div className="app">
+      <GameBoard />
     </div>
   );
 }

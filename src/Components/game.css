@@ -1,8 +1,14 @@
-.app {
+.board {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+
 }
 
+
+/*-----------------tiles---------------*/
+
+.tile {
+    
+}

@@ -1,14 +1,16 @@
 import React from 'react';
+import './game.css';
 
-class CasseBlanche extends React.Component {
+
+class WitheTiles extends React.Component {
 
     render() {
         return(
-            <div>
+            <div className="tile">
                 CasseBlanche
             </div>
         )
     }
 }
 
-export default CasseBlanche;
+export default WitheTiles;
