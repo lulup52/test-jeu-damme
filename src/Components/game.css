@@ -1,14 +1,41 @@
 .board {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 
 }
 
+.boardRow {
+   display: flex; 
+   flex-direction: row;
+}
+
 
 /*-----------------tiles---------------*/
 
 .tile {
-    
+    height: 50px;
+    width: 50px;
+}
+
+.witheTile {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 0;
+    border: solid;
+}
+
+.blackTile {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 0;
+    border: none;
+
 }
